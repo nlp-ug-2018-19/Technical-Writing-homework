@@ -1,3 +1,4 @@
+Adrianna Bałabańska
 ![alt text](https://upload.wikimedia.org/wikipedia/commons/9/92/LaTeX_logo.svg)
 
 # LATEX MANUAL - BASIC ELEMENTS OF LATEX DOCUMENT
