@@ -42,7 +42,7 @@ They all have to be located in the same folder as the programme.
 
 To run, download a zip file:
 
-
+https://github.com/kingastraszkiewicz/Project-Sentiment-Analysis/blob/master/Projekt.zip
 
 
 ## User Guide
