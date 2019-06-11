@@ -49,11 +49,11 @@ https://github.com/kingastraszkiewicz/Project-Sentiment-Analysis/blob/master/Pro
 After launching the tool, there appears the Menu displaying the contents of the programme and the numbers, which are ascribed to the options.
 The first thing that you have to do is to pick one of the two texts meant for analysis.
 
-![alt text](https://raw.githubusercontent.com/kingastraszkiewicz/Project-Sentiment-Analysis/master/2019-06-10_17h49_01.png?token=ALOVRDW3MAJRTZDAP3DDDY2477P3C)
+![alt text](https://github.com/kingastraszkiewicz/Project-Sentiment-Analysis/blob/master/2019-06-10_17h49_01.png)
 
 When the text is chosen, enter the number corresponding to one of the functions and press **ENTER**.
 
-![alt text](https://raw.githubusercontent.com/kingastraszkiewicz/Project-Sentiment-Analysis/master/2019-06-10_18h18_50.png?token=ALOVRDVKCNCGBC2MSZ7UR5K477P5K)
+![alt text](https://github.com/kingastraszkiewicz/Project-Sentiment-Analysis/blob/master/2019-06-10_18h18_50.png)
 
 ### Functions
 **1.** **_SENTIMENT ANALYSIS with stopwords_**
@@ -61,67 +61,67 @@ When the text is chosen, enter the number corresponding to one of the functions 
 Press 1 to see the number of positive and negative words in a given text.
 After analysing the text, the programme provides information whether the text is positive, negative, or neutral.
 
-![alt text](https://raw.githubusercontent.com/kingastraszkiewicz/Project-Sentiment-Analysis/master/2019-06-10_18h20_25.png?token=ALOVRDSNEHTFACF3YJWD3KK477P6S)
+![alt text](https://github.com/kingastraszkiewicz/Project-Sentiment-Analysis/blob/master/2019-06-10_18h20_25.png)
 
 1 also leads you to a pie chart on the occurrence of positive/negative words.
 
-![alt text](https://raw.githubusercontent.com/kingastraszkiewicz/Project-Sentiment-Analysis/master/sem_a.png?token=ALOVRDSZZVCTF27YPVBISFC477QA4)
+![alt text](https://github.com/kingastraszkiewicz/Project-Sentiment-Analysis/blob/master/sem_a.png)
 
 **2.** **_SENTIMENT ANALYSIS without stopwords_**
 
 Press 2 to see the number of positive and negative words in a given text **involving** stopwords.
 After analysing the text, the programme provides information whether the text is positive, negative, or neutral.
 
-![alt text](https://raw.githubusercontent.com/kingastraszkiewicz/Project-Sentiment-Analysis/master/2019-06-10_18h21_05.png?token=ALOVRDX7RYBX4EAOQCLILJS477QCG)
+![alt text](https://github.com/kingastraszkiewicz/Project-Sentiment-Analysis/blob/master/2019-06-10_18h21_05.png)
 
 2 also leads you to a pie chart on the occurrence of positive/negative words with stopwords.
 
-![alt text](https://raw.githubusercontent.com/kingastraszkiewicz/Project-Sentiment-Analysis/master/sem_a_ws.png?token=ALOVRDSJSJLMR66TMN3XVPK477QD2)
+![alt text](https://github.com/kingastraszkiewicz/Project-Sentiment-Analysis/blob/master/sem_a_ws.png)
 
 **3.** **_MOST FREQUENT positive/negative words_**
 
 Press 3 to see two lists.
 The first list contains the positive words which appear in the text, along with the frequency of their occurrence.
 
-![alt text](https://raw.githubusercontent.com/kingastraszkiewicz/Project-Sentiment-Analysis/master/2019-06-10_18h31_37.png?token=ALOVRDQMLNYKDAJFJEEQSCS477QFO)
+![alt text](https://github.com/kingastraszkiewicz/Project-Sentiment-Analysis/blob/master/2019-06-10_18h31_37.png)
 
 The list is accompanied by a suitable column chart.
 
-![alt text](https://raw.githubusercontent.com/kingastraszkiewicz/Project-Sentiment-Analysis/master/poz.png?token=ALOVRDW3CJKEPLELI5ZK4P2477QII)
+![alt text](https://github.com/kingastraszkiewicz/Project-Sentiment-Analysis/blob/master/poz.png)
 
 The second list contains the negative words which appear in the text, along with the frequency of their occurrence.
 
-![alt text](https://raw.githubusercontent.com/kingastraszkiewicz/Project-Sentiment-Analysis/master/2019-06-10_23h10_50.png?token=ALOVRDSY4FLGJD4MDY7ECE2477QLC)
+![alt text](https://github.com/kingastraszkiewicz/Project-Sentiment-Analysis/blob/master/2019-06-10_23h10_50.png)
 
 The list is accompanied by a suitable column chart.
 
-![alt text](https://raw.githubusercontent.com/kingastraszkiewicz/Project-Sentiment-Analysis/master/neg.png?token=ALOVRDQBVWVQMJVNGQY5ZYK477QMM)
+![alt text](https://github.com/kingastraszkiewicz/Project-Sentiment-Analysis/blob/master/neg.png)
 
 **4.** **_PERCENTAGE of positive/negative/neutral words/stop words_**
 
 Press 4 to see the list with the number of occurrences of positive words, negative words, neutral words, and stop words.
 There is also an information about the percent ratio of positive and negative words to the whole text
 
-![alt text](https://raw.githubusercontent.com/kingastraszkiewicz/Project-Sentiment-Analysis/master/2019-06-10_23h16_31.png?token=ALOVRDRX2756MSW5Q572AX2477QOC)
+![alt text](https://github.com/kingastraszkiewicz/Project-Sentiment-Analysis/blob/master/2019-06-10_23h16_31.png)
 
 The list is accompanied by a pie chart illustrating the data.
 
-![alt text](https://raw.githubusercontent.com/kingastraszkiewicz/Project-Sentiment-Analysis/master/per.png?token=ALOVRDUQRIRFTKQZB4KLPU2477QPQ)
+![alt text](https://github.com/kingastraszkiewicz/Project-Sentiment-Analysis/blob/master/per.png)
 
 **5.** **_SENTIMENT ANALYSIS based on keywords_**
 
 Press 5 to see two lists. One contains the source text divided on sentences and the other one contains all of the words in the text separated.
 
-![alt text](https://raw.githubusercontent.com/kingastraszkiewicz/Project-Sentiment-Analysis/master/2019-06-10_20h16_07.png?token=ALOVRDTCOF6FPE7VGEOP3ZS477QVI)
+![alt text](https://github.com/kingastraszkiewicz/Project-Sentiment-Analysis/blob/master/2019-06-10_20h16_07.png)
 
 Then, you have to write a key word. What follows is the list of sentences in which that keyword appears and the number of those sentences.
 You also have an information about the number of positive and negative words in those sentences and the statistical analysis of the sentiment in those sentences.
 
-![alt text](https://raw.githubusercontent.com/kingastraszkiewicz/Project-Sentiment-Analysis/master/2019-06-10_21h23_16.png?token=ALOVRDWEDGD7JRUP5K23QHS477QWU)
+![alt text](https://github.com/kingastraszkiewicz/Project-Sentiment-Analysis/blob/master/2019-06-10_21h23_16.png)
 
 Additionally, the list is accompanied by a pie chart presenting statistical information.
 
-![alt text](https://raw.githubusercontent.com/kingastraszkiewicz/Project-Sentiment-Analysis/master/key.png?token=ALOVRDUA6NVQ6J5IQZDMKIC477QYG)
+![alt text](https://github.com/kingastraszkiewicz/Project-Sentiment-Analysis/blob/master/key.png)
 
 ## Altering Files
 If you want the files containing lists of positive and negative words to be more accurate, you may add or remove words from them.
