@@ -1,0 +1,139 @@
+\documentclass[
+	fontsize=10pt, 
+	twoside=true, 
+	numbers=noenddot, 
+]{kaobook}
+\usepackage{hyperref}
+\usepackage{float}
+\usepackage[utf8]{inputenc}
+
+\title{IrfanView User Manual}
+\author{Natalia Niemczyk}
+\date{June 2019}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+\section{Introduction}
+\par IrfanView is a simple yet powerful freeware graphic viewer. It supports multiple file formats including JPEG, GIF, PSD, TIFF, CR2, and many more. IrfanView is suitable both for beginners looking to replace the default graphic viewer with a better, lightweight one, as well as professionals dealing with various file formats. It offers not only a single image view, but also a thumbnail view allowing one to preview all the graphic files in a folder. It features lossless file rotation, slideshow, image effects and text overlay, cut and crop options, and more. Lastly, IrfanView supports many plugins that allow one to expand on the already offered functions.
+
+\section{Setup}
+\par To run the program on Windows operating system download IrfanView from its official site, irfanview.com:
+\begin{itemize}
+    \item \href{https://www.IrfanView.com/main_download_engl.htm}{click here} for 32-bit version,
+    \item \href{https://www.IrfanView.com/64bit.htm}{click here} for 64-bit version.
+\end{itemize}{}
+\par After downloading extract the .zip file (unless the chosen version is self-extracting).
+\par You have successfully installed IrfanView. To open the program, double click on the EXE file (i\_view32 or i\_view64).
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=9cm, height=15cm]{irfanview.jpg}
+    \label{IrfanView installation folder and program window.}
+\end{figure}
+
+\section{Basic functions and navigating IrfanView}
+\subsection{Opening files}
+\par To open a file click the "File" option from the menu and choose "Open", click the folder icon in the menu or simply press the O key.
+\par In the popup window input file name and click "Open".
+\par Alternatively, right click the file icon and choose "Open with" from the drop-down menu, and click IrfanView.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=9cm, height=10cm]{irfan-open.jpg}
+\end{figure}
+
+\subsection{Navigation}
+\begin{itemize}
+    \item To resize the picture, click the magnifying glass icons below program menu with "+" or "-" signs to enlarge or shrink the preview of file. You can also use = and - keys (or + and - on numeric keyboard) to enlarge/shrink the preview.
+    \item To move to the next or previous file click respectively right or left arrow icon.
+    \item To view image in full-screen mode click "View" and "Fullscreen", or double click the image, or simply press ENTER key. To leave full-screen mode press ENTER again, or the ESC key.
+\end{itemize}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=7cm, height=10cm]{menu.jpg}
+    \label{IrfanView menu}
+\end{figure}
+
+\section{Editing files}
+\subsection{Copy, paste, and cut}
+\par IrfanView offers  basic copying and pasting options.
+\begin{itemize}
+    \item To mark a fragment of image left-click-and-drag the cursor over the desired marquee area.
+    \item To cut the fragment click the scissors icon from below the program menu.
+    \item To copy marked image click the two paper sheets icon.
+    \item To paste an image from clipboard click the clipboard icon.
+    \item To undo the previous action click the arrow icon.
+\end{itemize}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=7cm, height=10cm]{menu2.jpg}
+    \label{IrfanView menu}
+\end{figure}
+
+\subsection{Rotating and mirroring the image}
+\par Click the "Image" option in the menu. From the context menu choose:
+\begin{figure}[!]
+    \centering
+    \includegraphics[width=3cm, height=10cm]{rotate.jpg}
+\end{figure}
+\begin{itemize}
+    \item To rotate the image counter-clockwise or clockwise click "Rotate left" or "Rotate right", alternatively press respectively L or R key.
+    \item To rotate at a custom angle, click "Custom/Fine rotation" or press CTRL and U. In the popup "Rotate by angle" window input the desired angle and set the background color with "Choose" button, picking the desired color in the new "Color" window and pressing OK, then press OK again to apply changes.
+    \item To create a mirror image along vertical or horizontal axis click "Vertical flip" or "Horizontal flip", alternatively press respectively V or H key.
+\end{itemize}
+
+\subsection{Cropping the image}
+\par To crop the image, choose "Image" from the IrfanView menu and click "Change canvas size...", or press SHIFT and V keys at the same time.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=8cm, height=10cm]{size.jpg}
+\end{figure}
+\par In the popup window mark "Method 2" and input the desired image width and height in the respective fields.
+\par The "Anchor" represents the part of image from which the width and height of the image will be counted. After reaching the maximum values, IrfanView will crop the remaining picture. If given width or height is larger than the current one, the image will be expanded and filled with the color set in Canvas color (to change the color, click "Choose" and pick the desired color in the new "Color" window and press OK, then press OK again to apply changes). Finally apply the changes by clicking the OK button.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=10cm, height=10cm]{resizing.jpg}
+\end{figure}
+
+\section{Setting image as desktop wallpaper}
+You can set your desktop wallpaper directly from IrfanView program, which is especially useful for large pictures that may appear badly scaled with too sharp outlines when set as wallpaper with the default Windows method.
+To set an image as desktop wallpaper:
+\begin{itemize}
+    \item Open the desired file in IrfanView
+    \item Click "Options" in the program menu
+    \item Click "Set as wallpaper"\begin{itemize}
+        \item For centered wallpaper the actual size of the file choose "Centered" or press CTRL, SHIFT and C at the same time
+        \item For tiled wallpaper of a mosaic of chosen file filling the  whole space of the desktop choose "Tiled" or press CTRL, SHIFT and T
+        \item For a wallpaper stretched to the size of the desktop choose "Stretched" or press CTRL, SHIFT and S (this will often result in a distorted image)
+        \item For a wallpaper stretched to the size of  desktop while preserving the original ration of the image choose "Stretched proportional" or press CTRL, SHIFT and X (this will never result in a distorted image)
+    \end{itemize}
+\end{itemize}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=10cm, height=10cm]{wallpaper.jpg}
+\end{figure}
+\par To revert the changes and set the previous wallpaper (that has been set either with IrfanView or the default Windows methods) click "Options", "Set as wallpaper", and "Previous wallpaper", or press CTRL, SHIFT and P at the same time.
+
+\section{Setting IrfanView as the default graphic viewer}
+\par To set IrfanView as the default graphic viewer, right click on its icon and click "Choose default program...".
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=8cm, height=10cm]{irfan-default.jpg}
+\end{figure}
+\par Next, pick IrfanView from the popup window, make sure the "Always use the selected program to open this kind of file" option is marked, and click OK.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=8cm, height=10cm]{set-as-default.jpg}
+\end{figure}
+\par Repeat the process for files of every format you wish to open with IrfanView by default.
+
+\section{Thumbnail view}
+\par To view the thumbnails, click "File" from the program menu and then choose "Thumbnails". Alternatively, press T key.
+\par The thumbnail view displays thumbnails of all the graphic files in the current folder that IrfanView can read. Double-clicking a thumbnail will open the file in the same window as the one currently open in the program.
+\begin{figure}[h]
+    \centering
+    \includegraphics{thumb.jpg}
+\end{figure}
+\par On the left of the thumbnail previews window you can choose the folder from which thumbnails are loaded.
+
+\end{document}
